@@ -1,0 +1,110 @@
+/*Algumas estilizações basicas para o corpo do meu html*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #5b0e2d;
+	display: grid;
+	place-items: center;
+}
+
+/*Fim das estilizações basicas para o corpo do meu html*/
+
+/*Estilização basica do cabeçalho*/
+.cabeçalho {
+	width: 100%;
+	background: #ffa781;
+	box-shadow: 1px 1px 5px #5b0e2d;
+	height: 50px;
+}
+
+#menu1 {
+	width: 700px;
+	padding-top: 10px;
+	margin: auto;
+}
+
+#menu1 .lista .linhas {
+	color: #5b0e2d;
+	text-decoration: none;
+	font: bold 16px verdana;
+	padding: 12px 20px 12px 20px;
+	background: transparent;
+	border-bottom: 9px solid transparent;
+	transition: border-bottom 0.7s;
+	-webkit-transition: border-bottom 0.7s;
+	-moz-transition: border-bottom 0.7s;
+	-o-transition: border-bottom 0.7s;
+}
+
+#menu1 .lista .linhas:hover {
+	border-bottom: 9px solid #5b0e2d;
+}
+
+/*Fim Estilização basica do cabeçalho*/
+  
+  .hero-title {
+	margin-top: 11.25rem;
+	font-size: 4rem;
+	line-height: 1.125;
+	color: #ffa781;
+  }
+
+/*Estilização do formulario*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+#form-main {
+  width: 100%;
+  float: left;
+  padding-top: 0px;
+}
+
+#form-div {
+  background-color: #4b0e26cb;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  width: 450px;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+  color: #eb0d0d;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.feedback-input:focus {
+  background: #fff;
+  box-shadow: 0;
+  border: 3px solid #3498db;
+  color: #000000;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+#button-send {
+	width: 120px;
+	height: 60px;
+}
